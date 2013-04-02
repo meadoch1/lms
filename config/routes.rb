@@ -1,4 +1,8 @@
 Lms::Application.routes.draw do
+  get "dashboard/home"
+
+  root to: 'dashboard#home'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
