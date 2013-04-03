@@ -5,15 +5,19 @@ App.Store = DS.Store.extend({
 
 App.Participant.FIXTURES = [
     {
+        id: 1,
         name: "Larry",
         state: "Waiting"
     },{
+        id: 2,
         name: "Moe",
         state: "Going"
-    },{
+    },{ 
+        id: 3,
         name: "Curly",
         state: "Gone"
     },{
+        id: 4,
         name: "Shemp",
         state: "Waiting"
     }
