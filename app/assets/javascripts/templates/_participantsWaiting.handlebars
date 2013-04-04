@@ -1,4 +1,4 @@
-<h2>Participants</h2>
+<h2>Waiting</h2>
 {{#each participant in controller }}
   {{#if participant.isWaiting}}
     <p>{{#linkTo "participant" participant }} {{participant.name}} - {{participant.state}}{{/linkTo}}</p>
