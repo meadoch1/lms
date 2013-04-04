@@ -6,9 +6,12 @@ App.ParticipantsController = Ember.ArrayController.extend({
         });
 //        this.pushObject(newParticipant);
         this.set('newParticipantName', '');
+        this.get('store').commit();
     },
 
     drawWinner: function() {
+        
+        this.refresh();
         var resetPool = this.filterProperty('isHotseat');
         for (var i = 0; i < resetPool.length ; i++) {
             resetPool[i].set('state', 'Gone');
@@ -18,5 +21,6 @@ App.ParticipantsController = Ember.ArrayController.extend({
             entry = pool[Math.floor(Math.random()*pool.length)];
             entry.set('state', 'Going');
         }
+        this.get('store').commit();
     }
 });

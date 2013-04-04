@@ -1,4 +1,7 @@
 Lms::Application.routes.draw do
+  resources :participants
+
+
   get "dashboard/home"
 
   root to: 'dashboard#home'
