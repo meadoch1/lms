@@ -1,0 +1,4 @@
+<h2>Participants</h2>
+   {{#each participant in controller }}
+   <p>{{#linkTo "participant" participant }} {{participant.name}} - {{participant.state}}{{/linkTo}}</p>   {{/each }}
+
