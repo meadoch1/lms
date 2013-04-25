@@ -1,16 +1,10 @@
-<div class ="row-fluid">
-  <div class="span4">
-    {{ partial "participantsWaiting" }}
-  </div>
-  <div class="span4">
-    {{ partial "participantHotseat" }}
-  </div>
-  <div class="span4">
-    {{ partial "participantsNotWaiting" }}
-  </div>
-</div>
 <div class="row-fluid">
 	<div class="span12">
+		<p>{{view Ember.TextField valueBinding="newParticipantName" action="addParticipant"}}</p>
+		<p><button {{action drawWinner}}>Select Next</button>
+		<button {{action refresh}}>Refresh</button>
+		<button {{action flush}}>Flush</button>
+		</p>
 		{{outlet}}
 	</div>
 </div>

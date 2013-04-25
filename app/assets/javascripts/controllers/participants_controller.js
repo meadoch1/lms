@@ -9,46 +9,38 @@ App.ParticipantsController = Ember.ArrayController.extend({
         this.get('store').commit();
     },
 
-    refresh: function() {
-        var me = this;
-        var newContent = App.Participant.find({});
-        newContent.on('didLoad', function() {
-            me.populateContent(me, newContent);
-        });
-
+    flush: function() {
+        var recs = App.Participant.all();
+        for (var i = recs.content.length - 1; i >= 0; i--) {
+            recs.objectAt(i).deleteRecord();
+        }
+        this.get('store').commit();
     },
+
+    refresh: function() {
+        App.Participant.find({});
+    },
+
     drawWinner: function() {
         var me = this;
         var newContent = App.Participant.find({});
         newContent.on('didLoad', function() {
-            me.populateContent(me, newContent);
-            me.promoteHotseat(me);
-            me.chooseNewHotseat(me);
+            me.promoteHotseat(newContent);
+            me.chooseNewHotseat(newContent);
             me.get('store').commit();
         });
     },
 
-    populateContent: function(context, newContent) {
-        var c = context.get('content');
-        if (c) {
-            for (var i = 0; i < newContent.get('length'); i++) {
-                if (c.indexOf(newContent.objectAt(i)) < 0) {
-                    c.addObject(newContent.objectAt(i));
-                }
-            }
-        }
-    },
-
-    promoteHotseat: function(context) {
-        var resetPool = context.filterProperty('isHotseat');
+    promoteHotseat: function(newContent) {
+        var resetPool = newContent.filterProperty('isHotseat');
         for (var i = 0; i < resetPool.length ; i++) {
             resetPool[i].set('state', 'Gone');
         }
 
     },
 
-    chooseNewHotseat: function(context) {
-        var pool = context.filterProperty('isWaiting');
+    chooseNewHotseat: function(newContent) {
+        var pool = newContent.filterProperty('isWaiting');
         if (pool.length > 0) {
             entry = pool[Math.floor(Math.random()*pool.length)];
             entry.set('state', 'Going');

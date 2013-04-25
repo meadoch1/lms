@@ -1,7 +1,4 @@
 <h2>Waiting</h2>
-{{view Ember.TextField valueBinding="newParticipantName" action="addParticipant"}}
-<button {{action drawWinner}}>Select Next</button>
-<button {{action refresh}}>Refresh</button>
 {{#each participant in controller }}
   {{#if participant.isWaiting}}
     <p>{{#linkTo "participants.show" participant }} {{participant.name}}{{/linkTo}}</p>
