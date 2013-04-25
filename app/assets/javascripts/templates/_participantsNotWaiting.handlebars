@@ -1,7 +1,7 @@
 <h2>Not Waiting</h2>
 {{#each participant in controller }}
   {{#if participant.isGone}}
-    <p>{{#linkTo "participant" participant }} {{participant.name}}{{/linkTo}}</p>
+    <p>{{#linkTo "participants.show" participant }} {{participant.name}}{{/linkTo}}</p>
   {{/if}}
 {{/each }}
 

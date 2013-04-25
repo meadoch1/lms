@@ -1,7 +1,0 @@
-<h2>Participants</h2>
-{{#each participant in controller }}
-  {{#if participant.isWaiting}}
-    <p>{{#linkTo "participant" participant }} {{participant.name}} - {{participant.state}}{{/linkTo}}</p>
-  {{/if}}
-{{/each }}
-

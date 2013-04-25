@@ -1,0 +1,421 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fal",
+				"false_stuff"
+			],
+			[
+				"true",
+				"true_stuff"
+			],
+			[
+				"false",
+				"false_value"
+			],
+			[
+				"tru",
+				"true_value"
+			],
+			[
+				"Ar",
+				"ArgumentError"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Ruby/Ruby.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Git: Status"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sniphtml",
+				"Snippet: html"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"remv",
+				"Package Control: Remove Package"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"xi",
+				"Create Xiki Buffer"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"sideb",
+				"View: Toggle Side Bar"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTLL",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/chirsmeadows/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/chirsmeadows/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/chirsmeadows/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/chirsmeadows/git/lms/lms.sublime-project",
+		"/Users/chirsmeadows/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/chirsmeadows/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/chirsmeadows/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/chirsmeadows/git/lms/app/assets/javascripts/controllers/participant_controller.js",
+		"/Users/chirsmeadows/Downloads/starter-kit-1.0.0-rc.2/js/app.js",
+		"/Users/chirsmeadows/Downloads/starter-kit-1.0.0-rc.2/index.html",
+		"/Users/chirsmeadows/id_wesley.pub",
+		"/Users/chirsmeadows/wesley_pub_key.txt",
+		"/Users/chirsmeadows/git/SPA-Phase1/config/routes.rb",
+		"/Users/chirsmeadows/Downloads/id_rsa_t9_aws.pub",
+		"/Users/chirsmeadows/git/SPA-Phase1/lib/ui/app/controller/Index.js",
+		"/Users/chirsmeadows/git/SPA-Phase1/lib/tasks/rails_server.rake",
+		"/Users/chirsmeadows/git/SPA-Phase1/Rakefile",
+		"/Users/chirsmeadows/git/SPA-Phase1/script/rails",
+		"/Users/chirsmeadows/git/SPA-Phase1/lib/ui/index.js",
+		"/Users/chirsmeadows/git/SPA-Phase1/app/controllers/index_controller.rb",
+		"/Users/chirsmeadows/git/SPA-Phase1/app/assets/javascripts/application.js",
+		"/Users/chirsmeadows/git/SPA-Phase1/app/views/html/welcome.html.erb",
+		"/Users/chirsmeadows/git/SPA-Phase1/app/views/html/reports.html.erb",
+		"/Users/chirsmeadows/git/SPA-Phase1/app/views/html/report.html.erb",
+		"/Users/chirsmeadows/git/SPA-Phase1/app/views/layouts/application.html.erb",
+		"/Users/chirsmeadows/git/SPA-Phase1/app/controllers/application_controller.rb",
+		"/Users/chirsmeadows/git/SPA-Phase1/app/controllers/html_controller.rb",
+		"/Users/chirsmeadows/git/SPA-Phase1/config/application.rb",
+		"/Users/chirsmeadows/git/sinatra/singingwithsinatra/public/reset.css",
+		"/Users/chirsmeadows/git/sinatra/singingwithsinatra/public/style.css",
+		"/Users/chirsmeadows/git/sinatra/singingwithsinatra/views/home.erb",
+		"/Users/chirsmeadows/git/sinatra/singingwithsinatra/recall.rb",
+		"/Users/chirsmeadows/git/sinatra/singingwithsinatra/views/edit.erb",
+		"/Users/chirsmeadows/git/sinatra/singingwithsinatra/views/layout.erb.html",
+		"/Users/chirsmeadows/git/sinatra/try1/hello_world.rb",
+		"/Users/chirsmeadows/git/practical_messaging/Batch_Import_Test.csv",
+		"/Users/chirsmeadows/git/practical_messaging/ruby/example3_sub4.sh",
+		"/Users/chirsmeadows/git/practical_messaging/ruby/example3_sub1.sh",
+		"/Users/chirsmeadows/git/practical_messaging/ruby/example3_sub2.sh",
+		"/Users/chirsmeadows/git/practical_messaging/ruby/example3_sub3.sh",
+		"/Users/chirsmeadows/git/ruby_filewatcher/Gemfile",
+		"/Users/chirsmeadows/Library/Application Support/Sublime Text 2/Packages/Ruby/Ruby.sublime-build",
+		"/Users/chirsmeadows/git/Ruby/koans/path_to_enlightenment.rb",
+		"/Users/chirsmeadows/git/Ruby/koans/about_hashes.rb",
+		"/Users/chirsmeadows/git/Ruby/koans/about_control_statements.rb",
+		"/Users/chirsmeadows/git/Ruby/koans/about_triangle_project.rb",
+		"/Users/chirsmeadows/git/Ruby/koans/triangle.rb",
+		"/Users/chirsmeadows/git/Apollo Broker Instructions.txt",
+		"/Users/chirsmeadows/git/Ruby/koans/about_true_and_false.rb",
+		"/Users/chirsmeadows/git/Ruby/koans/about_constants.rb",
+		"/Users/chirsmeadows/git/Ruby/koans/about_regular_expressions.rb",
+		"/Users/chirsmeadows/git/Ruby/koans/about_methods.rb",
+		"/Users/chirsmeadows/test.tasks",
+		"/Users/chirsmeadows/git/Ruby/koans/about_symbols.rb",
+		"/Users/chirsmeadows/git/Ruby/koans/about_strings.rb",
+		"/Users/chirsmeadows/git/Ruby/koans/about_exceptions.rb",
+		"/Users/chirsmeadows/git/Ruby/koans/about_arrays.rb",
+		"/Users/chirsmeadows/git/Ruby/koans/about_array_assignment.rb",
+		"/Users/chirsmeadows/git/Ruby/koans/about_objects.rb",
+		"/Users/chirsmeadows/git/Ruby/koans/about_nil.rb",
+		"/Users/chirsmeadows/Library/Application Support/Sublime Text 2/Packages/Theme - Default/Widget.sublime-settings",
+		"/Users/chirsmeadows/Library/Application Support/Sublime Text 2/Packages/User/RubyTest.sublime-settings"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"line",
+			"__",
+			"ctrl+v",
+			"__"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"triang",
+				"triangle.rb"
+			],
+			[
+				"trian",
+				"about_triangle_project.rb"
+			],
+			[
+				"true",
+				"about_true_and_false.rb"
+			],
+			[
+				"contr",
+				"about_control_statements.rb"
+			],
+			[
+				"cons",
+				"about_constants.rb"
+			],
+			[
+				"me",
+				"about_methods.rb"
+			],
+			[
+				"regua",
+				"about_regular_expressions.rb"
+			],
+			[
+				"exce",
+				"about_exceptions.rb"
+			],
+			[
+				"triangle",
+				"about_triangle_project.rb"
+			],
+			[
+				"contro",
+				"about_control_statements.rb"
+			],
+			[
+				"met",
+				"about_methods.rb"
+			],
+			[
+				"regu",
+				"about_regular_expressions.rb"
+			],
+			[
+				"syb",
+				"about_symbols.rb"
+			],
+			[
+				"strin",
+				"about_strings.rb"
+			],
+			[
+				"hashes",
+				"about_hashes.rb"
+			],
+			[
+				"assign",
+				"about_array_assignment.rb"
+			],
+			[
+				"array",
+				"about_arrays.rb"
+			],
+			[
+				"string",
+				"about_strings.rb"
+			],
+			[
+				"hash",
+				"about_hashes.rb"
+			],
+			[
+				"assi",
+				"about_array_assignment.rb"
+			],
+			[
+				"arrays",
+				"about_arrays.rb"
+			],
+			[
+				"obj",
+				"about_objects.rb"
+			],
+			[
+				"nil",
+				"about_nil.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true
+}

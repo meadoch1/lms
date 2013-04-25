@@ -1,8 +1,10 @@
 <h2>Hotseat</h2>
 {{#each participant in controller }}
   {{#if participant.isHotseat}}
-    <p>{{#linkTo "participant" participant }} {{participant.name}}{{/linkTo}}</p>
+    <p>{{#linkTo "participants.show" participant }} {{participant.name}}{{/linkTo}}</p>
   {{/if}}
+{{else}}
+  <p>No one is on the hotseat</p>
 {{/each }}
 
 

@@ -4,7 +4,7 @@
 <button {{action refresh}}>Refresh</button>
 {{#each participant in controller }}
   {{#if participant.isWaiting}}
-    <p>{{#linkTo "participant" participant }} {{participant.name}}{{/linkTo}}</p>
+    <p>{{#linkTo "participants.show" participant }} {{participant.name}}{{/linkTo}}</p>
   {{/if}}
 {{/each }}
 
